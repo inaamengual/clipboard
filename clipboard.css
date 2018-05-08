@@ -125,7 +125,6 @@ menu p{
 /*-------------EVENTS SECTION -------------*/
 /*----------------------------------------*/
 .body {
-  width: 770px;
   display: flex;
   flex-direction: column;
 }
@@ -190,6 +189,10 @@ hr {
   padding: 10px 0px;
 }
 
-.rightbar p:visited, aside .rightbar p:hover {
+.rightbar p:visited, .rightbar p:hover {
   border-left: 3px solid #48D1CC;
+}
+
+main {
+  display: flex;
 }
